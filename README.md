@@ -1,4 +1,3 @@
-
 # Voltage Monitor for Raspberry Pi (Rust)
 
 This project monitors the voltage of a Raspberry Pi and displays the detected voltage alongside the recommended voltage in the console. It continuously updates the console with the current voltage and uses ASCII formatting to show a table with colored output:
@@ -78,4 +77,8 @@ Every 2 seconds, the table refreshes, showing the updated voltage, with colors i
 
 ## License
 
+<<<<<<< Updated upstream
 This project is open-source and available under the [MIT License](LICENSE).
+=======
+This project is open-source and available under the [MIT License](LICENSE).
+>>>>>>> Stashed changes
