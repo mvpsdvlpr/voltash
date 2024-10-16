@@ -1,0 +1,37 @@
+# Ignorar los binarios compilados
+/target/
+
+# Archivos y directorios de configuración
+**/*.rs.bk
+**/*~
+*.swp
+*.swo
+
+# Ignorar los archivos de salida de Cargo
+Cargo.lock
+Cargo.toml.orig
+
+# Archivos relacionados con el entorno de desarrollo
+.idea/
+/.vscode/
+/*.iml
+
+# Archivos de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Archivos de ejecución o logs
+*.log
+*.out
+
+# Archivos temporales
+tmp/
+*.tmp
+
+# Ignorar archivos de Python, en caso de tener scripts auxiliares
+__pycache__/
+*.py[cod]
+
+# Ignorar archivos Docker si usas contenedores más adelante
+docker-compose.yml
+Dockerfile
